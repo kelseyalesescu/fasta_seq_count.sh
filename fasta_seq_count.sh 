@@ -1,0 +1,14 @@
+#!/bin/bash
+cd desktop
+echo This script can count the number of sequences in a fasta file. 
+greeting="Hello" 
+name="Kelsey"!
+echo $greeting $name
+mkdir learning_bash
+cd learning_bash
+mkdir bioinformatics
+cd /Users/kelsey/Desktop/test_folder
+find transcriptome.fasta
+cp transcriptome.fasta /Users/kelsey/Desktop/learning_bash/bioinformatics
+cd /Users/kelsey/Desktop/learning_bash/bioinformatics
+grep -c ">" *.fasta >> fasta_count.txt
